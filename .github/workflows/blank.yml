@@ -2,7 +2,7 @@ name: CI (Jira cloud example with GH action, report results to Test Plan - demo)
 on:
   workflow_dispatch:
     inputs:
-      test_plan_key:
+      test:
         description: 'Test Plan issue key'
         required: false
         default: ''
